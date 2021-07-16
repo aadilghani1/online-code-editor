@@ -1,6 +1,6 @@
 # Online Code Editor by Aadil Abdul Ghani
 
-This project is deployed. Click the link to see it live ->> [Online Code Editor](http://aadilghani1.github.io/online-code-editor).
+This project is deployed. Click the link to see it live ->> [Online Code Editor](https://aadilghani1.github.io/online-code-editor/).
 
 ## Directions to install
 
