@@ -48,8 +48,8 @@ function App() {
       <div className="app">
         <div className="explorer--Explorer">
           <div className="explorer--Head">File Explorer</div>
-          <ul className="explorer--List">
-            <li
+          <div className="explorer--List">
+            <button
               className="listClass"
               onClick={htmlToggleFunc}
               style={
@@ -61,22 +61,22 @@ function App() {
               }
             >
               index.html
-            </li>
-            <li
+            </button>
+            <button
               className="listClass"
               onClick={cssToggleFunc}
               style={cssToggle ? { color: "#00ff4c" } : { color: "#ffffff" }}
             >
               index.css
-            </li>
-            <li
+            </button>
+            <button
               className="listClass"
               onClick={jsToggleFunc}
               style={jsToggle ? { color: "#00ff4c" } : { color: "#ffffff" }}
             >
               index.js
-            </li>
-          </ul>
+            </button>
+          </div>
         </div>
         <div className="app--CodeEditor">
           {htmlToggle ? (

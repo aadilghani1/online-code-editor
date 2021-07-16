@@ -43,7 +43,6 @@
 /* Only to remove top whitespace in app */
 ul {
   margin-top: 0;
-  list-style-type: none;
 }
 
 .CodeMirror {
@@ -64,8 +63,21 @@ ul {
 }
 
 .listClass {
+  padding-top: 1rem;
+  font-size: x-large;
+  background: none;
+  border: none;
   cursor: pointer;
-  padding-top: 0.3rem;
+}
+
+.listClass:hover {
+  opacity: 70%;
+}
+
+.explorer--List {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
 }
 
 @media only screen and (min-width: 2560px) {
