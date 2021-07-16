@@ -1,38 +1,184 @@
-.App {
+.mainDocument--Head {
   text-align: center;
+  color: #ffffff;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  height: 90vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border-top: 2px solid #222731;
 }
 
-.App-link {
-  color: #61dafb;
+.explorer--Explorer {
+  width: 15rem;
+  font-size: x-large;
+  background-color: #21242b;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.explorer--Head {
+  text-align: center;
+  color: #fff;
+  background-color: #1c1e24;
+  font-size: xx-large;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.app--CodeEditor {
+  width: 55rem;
+  height: 100%;
+}
+.app--LiveServer {
+  height: 93.4vh;
+  width: 45rem;
+  border: 1px solid;
+  margin-right: 1rem;
+  margin-top: 0rem;
+}
+
+/* Only to remove top whitespace in app */
+ul {
+  margin-top: 0;
+  list-style-type: none;
+}
+
+.CodeMirror {
+  height: 94vh !important;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.liveServer--Head {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1c1e24;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.listClass {
+  cursor: pointer;
+}
+.listClass:hover {
+  opacity: 70%;
+}
+
+@media only screen and (min-width: 2560px) {
+  .explorer--Explorer {
+    width: 30rem;
   }
-  to {
-    transform: rotate(360deg);
+  .explorer--List {
+    margin-left: 7rem;
+    font-size: 2rem;
+  }
+  .explorer--Head {
+    font-size: 2rem;
+  }
+  .app--CodeEditor {
+    width: 70rem;
+  }
+  .app--LiveServer {
+    width: 56rem;
+    margin-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .explorer--Explorer {
+    width: 25rem;
+  }
+  .explorer--List {
+    margin-left: 2rem;
+  }
+  .app--CodeEditor {
+    margin-left: 2rem;
+    width: 80rem;
+  }
+  .app--LiveServer {
+    margin-left: 2rem;
+    margin-right: 0rem;
+    width: 50rem;
+  }
+}
+
+@media only screen and (max-width: 1521px) {
+  .explorer--Head {
+    font-size: 1.99rem;
+  }
+}
+@media only screen and (max-width: 1515px) {
+  .explorer--Head {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 1455px) {
+  .explorer--Head {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 1863px) {
+  .app--LiveServer {
+    margin-left: 2rem;
+  }
+  .app--CodeEditor {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1540px) {
+  .app--LiveServer {
+    margin-left: 2rem;
+  }
+  .explorer--List {
+    margin-left: -0.2rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .explorer--Explorer {
+    width: 30rem;
+  }
+  .app--CodeEditor {
+    width: 80rem;
+    height: 100%;
+  }
+  .app--LiveServer {
+    width: 70rem;
+    margin-right: 0rem;
+  }
+  .explorer--List {
+    font-size: 1.3rem;
+    padding-right: 0.8rem;
+    margin-left: -0.9rem;
+  }
+  .explorer--Head {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .explorer--Explorer {
+    width: 40rem;
+  }
+  .explorer--Head {
+    font-size: large;
+  }
+  .explorer--List {
+    font-size: large;
+
+    margin-left: -0.5rem;
+  }
+  .app--CodeEditor {
+    width: 80rem;
+    height: 100%;
+  }
+  .app--LiveServer {
+    margin-right: 0rem;
+    width: 80rem;
   }
 }
