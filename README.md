@@ -16,6 +16,6 @@ Run the above command after installing the required packages it will start a dev
 
 ### Is there an other way round rather than installing packages or checking through deployed link?
 
-Yes, I have a video that explains it all.
+Yes, I have a video that explains it all ->> [Online Code Editor](https://aadilghani1.github.io/online-code-editor/)
 
 ![Sample](readMeSample.PNG)
