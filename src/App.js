@@ -48,35 +48,44 @@ function App() {
       <div className="app">
         <div className="explorer--Explorer">
           <div className="explorer--Head">File Explorer</div>
-          <div className="explorer--List">
-            <button
+          <ul className="explorer--List">
+            <li
               className="listClass"
               onClick={htmlToggleFunc}
               style={
                 htmlToggle
                   ? {
                       color: "#00ff4c",
+                      cursor: "pointer",
                     }
-                  : { color: "#ffffff" }
+                  : { color: "#ffffff", cursor: "pointer" }
               }
             >
               index.html
-            </button>
-            <button
+            </li>
+            <li
               className="listClass"
               onClick={cssToggleFunc}
-              style={cssToggle ? { color: "#00ff4c" } : { color: "#ffffff" }}
+              style={
+                cssToggle
+                  ? { color: "#00ff4c", cursor: "pointer" }
+                  : { color: "#ffffff", cursor: "pointer" }
+              }
             >
               index.css
-            </button>
-            <button
+            </li>
+            <li
               className="listClass"
               onClick={jsToggleFunc}
-              style={jsToggle ? { color: "#00ff4c" } : { color: "#ffffff" }}
+              style={
+                jsToggle
+                  ? { color: "#00ff4c", cursor: "pointer" }
+                  : { color: "#ffffff", cursor: "pointer" }
+              }
             >
               index.js
-            </button>
-          </div>
+            </li>
+          </ul>
         </div>
         <div className="app--CodeEditor">
           {htmlToggle ? (
