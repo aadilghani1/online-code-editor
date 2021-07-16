@@ -65,9 +65,7 @@ ul {
 
 .listClass {
   cursor: pointer;
-}
-.listClass:hover {
-  opacity: 70%;
+  padding-top: 0.3rem;
 }
 
 @media only screen and (min-width: 2560px) {
