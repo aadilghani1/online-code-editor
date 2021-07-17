@@ -14,7 +14,7 @@ run the above command in a terminal within the project directory.
 
 Run the above command after installing the required packages it will start a development server.
 
-### Extra feature added by me: `Dark Mode Toggle in Code Editor`
+### Additional feature: `Dark Mode Toggle in Code Editor`
 
 ### Is there an other way round rather than installing packages or checking through deployed link?
 
